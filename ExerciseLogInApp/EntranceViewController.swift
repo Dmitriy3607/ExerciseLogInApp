@@ -20,8 +20,6 @@ class EntranceViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let exitVC = segue.destination as! ExitViewController
         exitVC.helloString = userTF.text
-        print("")
-        //exitVC.helloLabel.tfuext = userTF.text!
         
     }
 
