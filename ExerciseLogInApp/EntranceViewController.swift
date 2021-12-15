@@ -26,7 +26,6 @@ class EntranceViewController: UIViewController {
     }
 
     override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
-        //guard let exitVC = unwindSegue.source as? ExitViewController else { return }
         userTF.text = ""
         passwordTF.text = ""
     }
